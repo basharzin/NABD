@@ -1,7 +1,7 @@
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
-import Colors from '@/constants/Colors';
-import { BLOOD_TYPES } from '@/models/data';
-import { useFindDonorsViewModel } from '@/viewmodels/hospitalsViewModel';
+import Colors from '@/shared/Colors';
+import { BLOOD_TYPES } from '@/shared/models/data';
+import { useFindDonorsViewModel } from '@/features/map/viewmodels/hospitalsViewModel';
 
 const DISTANCES = [5, 10, 20];
 

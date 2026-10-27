@@ -1,7 +1,7 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
-import Colors from '@/constants/Colors';
-import { getHospital } from '@/viewmodels/hospitalsViewModel';
+import Colors from '@/shared/Colors';
+import { getHospital } from '@/features/map/viewmodels/hospitalsViewModel';
 
 export default function HospitalDetailsScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();

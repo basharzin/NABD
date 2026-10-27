@@ -1,7 +1,7 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { router } from 'expo-router';
-import Colors from '@/constants/Colors';
-import { DAYS_BETWEEN_DONATIONS, useDonationViewModel } from '@/viewmodels/donationViewModel';
+import Colors from '@/shared/Colors';
+import { DAYS_BETWEEN_DONATIONS, useDonationViewModel } from '@/features/donation/viewmodels/donationViewModel';
 
 export default function CanIDonateScreen() {
   const { user, days, canDonate, daysLeft, nextDate } = useDonationViewModel();

@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Switch, Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
-import Colors from '@/constants/Colors';
-import { BLOOD_TYPES, HOSPITALS } from '@/models/data';
-import { BloodType } from '@/models/types';
-import { useRequestsViewModel } from '@/viewmodels/requestsViewModel';
+import Colors from '@/shared/Colors';
+import { BLOOD_TYPES, HOSPITALS } from '@/shared/models/data';
+import { BloodType } from '@/shared/models/types';
+import { useRequestsViewModel } from '@/features/requests/viewmodels/requestsViewModel';
 
 export default function NewRequestScreen() {
   const { addRequest } = useRequestsViewModel();

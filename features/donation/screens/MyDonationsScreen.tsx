@@ -1,7 +1,7 @@
 import { FlatList, StyleSheet, Text, View } from 'react-native';
-import Colors from '@/constants/Colors';
-import { useDonationViewModel } from '@/viewmodels/donationViewModel';
-import { getHospitalName } from '@/viewmodels/requestsViewModel';
+import Colors from '@/shared/Colors';
+import { useDonationViewModel } from '@/features/donation/viewmodels/donationViewModel';
+import { getHospitalName } from '@/features/requests/viewmodels/requestsViewModel';
 
 export default function MyDonationsScreen() {
   const { donations } = useDonationViewModel();

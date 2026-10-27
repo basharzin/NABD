@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { DONORS, HOSPITALS } from '@/models/data';
-import { BloodType } from '@/models/types';
-import { canGiveTo } from './requestsViewModel';
+import { DONORS, HOSPITALS } from '@/shared/models/data';
+import { BloodType } from '@/shared/models/types';
+import { canGiveTo } from '@/features/requests/viewmodels/requestsViewModel';
 
 export function useHospitalsViewModel() {
   const [search, setSearch] = useState('');

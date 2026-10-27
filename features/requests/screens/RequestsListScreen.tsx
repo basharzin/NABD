@@ -1,8 +1,8 @@
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { router } from 'expo-router';
-import Colors from '@/constants/Colors';
-import RequestCard from '@/components/RequestCard';
-import { useRequestsViewModel } from '@/viewmodels/requestsViewModel';
+import Colors from '@/shared/Colors';
+import RequestCard from '@/features/requests/components/RequestCard';
+import { useRequestsViewModel } from '@/features/requests/viewmodels/requestsViewModel';
 
 export default function RequestsListScreen() {
   const { user, shownRequests, onlyMatching, setOnlyMatching } = useRequestsViewModel();

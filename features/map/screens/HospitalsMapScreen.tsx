@@ -1,7 +1,7 @@
 import { FlatList, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
-import Colors from '@/constants/Colors';
-import { useHospitalsViewModel } from '@/viewmodels/hospitalsViewModel';
+import Colors from '@/shared/Colors';
+import { useHospitalsViewModel } from '@/features/map/viewmodels/hospitalsViewModel';
 
 export default function HospitalsMapScreen() {
   const { hospitals, search, setSearch, onlyBloodBanks, setOnlyBloodBanks } = useHospitalsViewModel();

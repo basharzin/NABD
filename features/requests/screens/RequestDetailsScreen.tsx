@@ -1,8 +1,8 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
-import Colors from '@/constants/Colors';
-import { BLOOD_TYPES } from '@/models/data';
-import { canGiveTo, getHospitalName, useRequestsViewModel } from '@/viewmodels/requestsViewModel';
+import Colors from '@/shared/Colors';
+import { BLOOD_TYPES } from '@/shared/models/data';
+import { canGiveTo, getHospitalName, useRequestsViewModel } from '@/features/requests/viewmodels/requestsViewModel';
 
 export default function RequestDetailsScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();

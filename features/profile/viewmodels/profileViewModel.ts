@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useApp } from './AppContext';
+import { useApp } from '@/shared/AppContext';
 
 export function useProfileViewModel() {
   const { user, setUser, notifications, setNotifications } = useApp();

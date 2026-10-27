@@ -1,6 +1,6 @@
-import Colors from "@/constants/Colors";
-import { HOSPITALS, TIMES } from "@/models/data";
-import { useDonationViewModel } from "@/viewmodels/donationViewModel";
+import Colors from "@/shared/Colors";
+import { HOSPITALS, TIMES } from "@/shared/models/data";
+import { useDonationViewModel } from "@/features/donation/viewmodels/donationViewModel";
 import { router } from "expo-router";
 import { useState } from "react";
 import {

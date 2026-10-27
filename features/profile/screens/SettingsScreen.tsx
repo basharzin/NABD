@@ -1,6 +1,6 @@
 import { Pressable, StyleSheet, Switch, Text, View } from 'react-native';
-import Colors from '@/constants/Colors';
-import { useSettingsViewModel } from '@/viewmodels/profileViewModel';
+import Colors from '@/shared/Colors';
+import { useSettingsViewModel } from '@/features/profile/viewmodels/profileViewModel';
 
 const DISTANCES = [5, 10, 20];
 

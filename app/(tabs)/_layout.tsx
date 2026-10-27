@@ -1,6 +1,6 @@
 import { Tabs } from 'expo-router';
 import { SymbolView } from 'expo-symbols';
-import Colors from '@/constants/Colors';
+import Colors from '@/shared/Colors';
 
 export default function TabLayout() {
   return (

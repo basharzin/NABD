@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
-import Colors from '@/constants/Colors';
-import { useProfileViewModel } from '@/viewmodels/profileViewModel';
+import Colors from '@/shared/Colors';
+import { useProfileViewModel } from '@/features/profile/viewmodels/profileViewModel';
 
 export default function ProfileScreen() {
   const { user, setUser, unreadCount } = useProfileViewModel();

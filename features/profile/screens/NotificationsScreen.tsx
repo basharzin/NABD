@@ -1,8 +1,8 @@
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { router } from 'expo-router';
-import Colors from '@/constants/Colors';
-import { Notification } from '@/models/types';
-import { useProfileViewModel } from '@/viewmodels/profileViewModel';
+import Colors from '@/shared/Colors';
+import { Notification } from '@/shared/models/types';
+import { useProfileViewModel } from '@/features/profile/viewmodels/profileViewModel';
 
 export default function NotificationsScreen() {
   const { notifications, markAsRead, markAllAsRead } = useProfileViewModel();

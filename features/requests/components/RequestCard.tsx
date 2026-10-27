@@ -1,8 +1,8 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { router } from 'expo-router';
-import Colors from '@/constants/Colors';
-import { BloodRequest } from '@/models/types';
-import { getHospitalName } from '@/viewmodels/requestsViewModel';
+import Colors from '@/shared/Colors';
+import { BloodRequest } from '@/shared/models/types';
+import { getHospitalName } from '@/features/requests/viewmodels/requestsViewModel';
 
 export default function RequestCard({ request }: { request: BloodRequest }) {
   return (

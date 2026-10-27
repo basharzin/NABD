@@ -1,5 +1,5 @@
-import { useApp } from './AppContext';
-import { Donation } from '@/models/types';
+import { useApp } from '@/shared/AppContext';
+import { Donation } from '@/shared/models/types';
 
 export const DAYS_BETWEEN_DONATIONS = 90;
 
