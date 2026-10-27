@@ -1,6 +1,6 @@
 import { Stack } from 'expo-router';
-import { AppProvider } from '@/viewmodels/AppContext';
-import Colors from '@/constants/Colors';
+import { AppProvider } from '@/shared/AppContext';
+import Colors from '@/shared/Colors';
 
 export default function RootLayout() {
   return (

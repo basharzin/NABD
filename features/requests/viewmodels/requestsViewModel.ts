@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { HOSPITALS } from '@/models/data';
-import { BloodRequest, BloodType } from '@/models/types';
-import { useApp } from './AppContext';
+import { HOSPITALS } from '@/shared/models/data';
+import { BloodRequest, BloodType } from '@/shared/models/types';
+import { useApp } from '@/shared/AppContext';
 
 // which patients each donor type can give to
 const CAN_GIVE_TO: Record<BloodType, BloodType[]> = {

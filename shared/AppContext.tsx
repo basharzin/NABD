@@ -1,6 +1,6 @@
 import { createContext, PropsWithChildren, useContext, useState } from 'react';
-import { DONATIONS, NOTIFICATIONS, REQUESTS, USER } from '@/models/data';
-import { BloodRequest, Donation, Notification, User } from '@/models/types';
+import { DONATIONS, NOTIFICATIONS, REQUESTS, USER } from '@/shared/models/data';
+import { BloodRequest, Donation, Notification, User } from '@/shared/models/types';
 
 type AppValue = {
   user: User;
